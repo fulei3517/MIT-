@@ -1,9 +1,11 @@
+# -*- coding:utf-8 -*-
+
 # 2.2 程序分支 练习题
 # 检查3个变量 x,y,z 输出其中最大的奇数。如果其中没有奇数，就输出一个消息进行说明
 
-x = int(input("请输入 x = "))
-y = int(input("请输入 y = "))
-z = int(input("请输入 z = "))
+x = int(input("Enter x = "))
+y = int(input("Enter y = "))
+z = int(input("Enter z = "))
 
 print("x = %s y = %s z = %s" % (x, y, z))
 print(type(z))
@@ -40,16 +42,15 @@ print(type(z))
 # else:
 #     print("没有奇数")
 
-
 if x > y and x > z and x % 2 != 0:
-    print("x = %s 为最大的奇数" % x)
+    print("x = %s is max odd" % x)
 elif y > z and y % 2 != 0:
-    print("y = %s 为最大的奇数" % y)
+    print("y = %s is max odd" % y)
 elif z % 2 != 0:
-    print("z = %s 为最大的奇数" % z)
+    print("z = %s is max odd" % z)
 elif y % 2 != 0:
-    print(" = %s 为最大的奇数" % y)
+    print(" = %s is max odd" % y)
 elif x % 2 != 0:
-    print("x = %s 为最大的奇数" % x)
+    print("x = %s is max odd" % x)
 else:
-    print("没有奇数")
+    print("No odd number")
