@@ -9,7 +9,6 @@ while times < 10:
     if num > temp and num % 2 != 0:
         temp = num
     times += 1
-
 if temp > 0:
     print("%d is max odd " % temp)
 else:
