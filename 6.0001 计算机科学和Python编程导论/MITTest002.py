@@ -5,8 +5,7 @@
 numXs = int(input("How many times should I print the letter X?"))
 toPrint = ""
 # concatenate X to toPrint numXs times 使用while 替换这里的内容
-while abs(numXs) > 0:
+while (numXs > 0):
     toPrint += "X"
-    numXs = abs(numXs) - 1
+    numXs -= 1
 print(toPrint)
-
